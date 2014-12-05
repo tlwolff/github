@@ -1,9 +1,10 @@
 .css-module {
   margin-bottom: 6em;
+  clear: both;
   &> h2 {
+    background-color: #ddd;
     padding: .5em 0.25em;
     font-family: monospace;
-    background-color: #ccc;
     clear: both;
 
   }
