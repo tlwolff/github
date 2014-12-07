@@ -1,3 +1,36 @@
 .footer {
   clear: both;
+  border: 1px solid #ddd;
+}
+
+li {
+  list-style-type: none;
+  color: black;
+
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-nav{
+  float: left;
+
+
+}
+
+.lab-nav{
+  float: left;
+
+}
+
+.social-media{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  clear: both;
+
 }
