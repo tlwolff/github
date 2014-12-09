@@ -1,15 +1,27 @@
-.social-media{
+.social-media {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: right;
   clear: both;
 
 }
 
 li {
-  float:left;
+  list-style-type: none;
+  float: right;
   margin: 0;
 
 
+}
+
+a {
+  list-style-type: none;
+  padding: 0.25em;
+  display: block;
+
+
+}
+
+a:hover{
+  color: #159588;
 }
