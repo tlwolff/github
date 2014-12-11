@@ -1,15 +1,26 @@
 
 .main-nav {
   clear: both;
+  display: inline-block;
+  float: right;
 
 }
 
-h2 {
-  @include visuallyhidden;
+
+ul {
+  font-size: 1.9em;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
-p {
-  color: #888888;
+li{
+
+
+}
+
+a {
+  color: #333;
+  margin: 20px;
 }
 
 a:hover {
