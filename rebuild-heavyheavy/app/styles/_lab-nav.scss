@@ -1,44 +1,22 @@
 .lab-nav{
-  font-size: 13px;
-    color:#888;
-    margin: auto;
-  padding: auto;
-    border: auto;
-    float:left;
-    width:30%;
-    border: 1px solid red;
-    
-   
-
-}
+  font-size: 1em;
+  line-height: 1.5;
+  float:left;
+  width:20%;
 
 ul {
   list-style-type: none;
-  margin-bottom: 0;
   padding-left: 0;
-    overflow: auto;
-    border: 1px solid green;
-    
-
 }
 
-li{
-border: 1px solid blue;
-  margin: 0;
-  padding: 0;
-
-
-}
 
 a {
-
+  color:#888;
+  text-decoration: none;
   margin: 0;
-  padding: 0;
 }
 
 a:hover {
   color:  #159588;
-
-
-
+}
 }

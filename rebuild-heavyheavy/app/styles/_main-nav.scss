@@ -1,29 +1,21 @@
 
 .main-nav {
   clear: both;
-  display: inline-block;
   float: right;
-
-}
-
-
-ul {
-  font-size: 1.9em;
+ ul {
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.5;
-}
+  }
 
-li{
-
-
-}
-
-a {
+ a {
   color: #333;
-  margin: 20px;
-}
+  margin: 15px;
+  }
 
-a:hover {
+ a:hover {
     color: #159588;
+
+  }
 
 }
