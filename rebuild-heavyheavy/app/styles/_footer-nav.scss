@@ -1,0 +1,23 @@
+.footer-nav {
+  font-size: 1em;
+  line-height: 1.5;
+  float:left;
+  width:20%;
+  margin-right: 40px;
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+
+  a {
+    color:#888;
+    text-decoration: none;
+    margin: 0;
+  }
+
+  a:hover {
+    color:  #159588;
+  }
+}
