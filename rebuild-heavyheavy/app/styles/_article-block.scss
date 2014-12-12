@@ -1,21 +1,39 @@
 .article-block {
-  height: 30em;
-  margin: 0 1.5% 1.5% 0;
+  width: 50%;
+  height: 20em;
+  margin: .4em;
   float: left;
+  text-decoration: none;
 
-  img {
+img {
     z-index: -10;
     max-width: none;
-    zoom: .5;
 }
 
-  .block-small {
-    width: 50%;
+.title {
+    visibility: hidden;
+
+}
+
+p {
+  visibility: hidden;
+
 }
 
 
-  h2 p {
-   color: #fff;
+&:hover {
+  background-color:  #159588;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  visibility: visible;
 }
 
 }
+.article-block:hover h2 {
+  visibility:visible;
+}
+
+.article-block:hover p{visibility:visible}

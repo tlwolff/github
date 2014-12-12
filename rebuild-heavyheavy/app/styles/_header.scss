@@ -1,10 +1,11 @@
 .header{
   clear: both;
-}
+
 
 
 
 img {
+  zoom:.6;//.5//
   float: left;
 
 
@@ -12,17 +13,19 @@ img {
 }
 
 .logo-mission {
-  color: #888888;
-  font-size: 1.8em;
-  font-style: normal;
+  color: #888;
+  font-size: 1em;
+  line-height: 1.25em;
   display: block;
-  padding: 50px 0 5px 0;
+  padding: 30px 0 5px 0;
 
 }
 
 .logo-heavy {
-  font-size: 1.8em;
-  font-weight: bold;
+  font-size: 1.15em;
+  font-weight:600;
+  line-height:1.27;
+
 
 
 
@@ -30,5 +33,7 @@ img {
 
 .logo-mission .logo-heavy {
   float: left;
+
+}
 
 }
