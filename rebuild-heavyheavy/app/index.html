@@ -23,13 +23,19 @@
     <!-- endbuild -->
   </head>
   <body>
-    <!--[if lt IE 10]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+    <div id="allcontent">
 
-    <header class="page-header">
-      <p>Identitiy. Content. Digital.</p>
-      <h1>We are Heavy Heavy</h1>
+    <header class="header">
+      <!--mission-->
+      <a href="#">
+      <img src="images/modules/logo.jpg" alt="logo">
+      </a>
+      <span class="logo-mission">Identitiy. Content. Digital.</span>
+      <span class="logo-heavy">We are Heavy Heavy.</span>
+    </header>
+    <!--end-mission-->
+
+    <!--main-nav-->
       <nav class="main-nav">
         <ul>
           <li><a href="#">Work</a></li>
@@ -37,6 +43,7 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+    <!--end-main-nav-->
     </header>
 
     <!---Article Blocks-->
@@ -48,7 +55,7 @@
           <img src="images/post.1.jpg" alt= "logo-A in squares"></a>
       </article>
 
-      <article class="article-block small">
+      <article class="article-block block-small">
         <a href="#">
           <h2>Keep SA Real</h2>
           <p>Identity + content direction + web design + web development</p>
@@ -83,39 +90,48 @@
               <img src="images/post.6.jpg" alt= "We are pixel8 logo"></a>
           </article>
         </main>
+       <!--end-Article-block-->
+        <footer class="footer">
 
-        <footer class="page-footer">
-          <h2>Heavy Heavy</h2>
-          <p>110 E. Houston St.<br>
-             7th Floor<br>
-             San Antonio, TX 78205<br>
-             <a href="#">hello@heavyheavy.com</a>
-          </p>
-         <nav class="footer-nav">
-           <h2>Navigate</h2>
-           <ul>
-             <li><a href="#">Work</a></li>
-             <li><a href="#">Studio</a></li>
-             <li><a href="#">Contact</a></li>
-           </ul>
-         </nav>
-         <nav class="lab-nav">
-           <h2>Labratory</h2>
-           <ul>
-             <li><a href="#">Style Guide</a></li>
-             <li><a href="#">Bark PR</a></li>
-             <li><a href="#">Keep SA Real</a></li>
-           </ul>
-         </nav>
-         <nav>
-          <ul class="social-media">
-            <li><i class="fa fa-facebook"><span class="visuallyhidden">Facebook</span></i></li>
-            <li><i class="fa fa-twitter"><span class="visuallyhidden">Twitter</span></i></li>
-            <li><i class="fa fa-pinterest"><span class="visuallyhidden">Pinterest</span></i></li>
-            <li><i class="fa fa-linkedin"><span class="visuallyhidden">LinkedIn</span></i></li>
-          </ul>
-         </nav>
+          <article class="contact">
+            <p class="black">Heavy Heavy</p>
+            <address>110 E. Houston St.<br>
+              7th Floor<br>
+              San Antonio, TX 78205<br>
+              <a href="#">hello@heavyheavy.com</a>
+            </address>
+          </article>
+
+
+          <nav class="footer-nav">
+            <p class="black">Navigate</p>
+            <ul>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Studio</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+
+          <nav class="lab-nav">
+            <p class="black">Labratory</p>
+            <ul>
+              <li><a href="#">Style Guide</a></li>
+              <li><a href="#">Bark PR</a></li>
+              <li><a href="#">Keep SA Real</a></li>
+            </ul>
+          </nav>
+
+          <nav class="social-media">
+            <ul>
+              <li><i class="fa fa-twitter"></i> <span class="visuallyhidden">Twitter</span></li>
+              <li><i class="fa fa-dribbble"></i> <span class="visuallyhidden">Dribble</span></li>
+              <li><i class="fa fa-angellist"></i> <span class="visuallyhidden">Angel List</span></li>
+              <li><i class="fa fa-linkedin"></i> <span class="visuallyhidden">LinkedIn</span></li>
+            </ul>
+          </nav>
         </footer>
+
 
 
 
@@ -145,6 +161,6 @@
 
         <!-- build:js scripts/main.js -->
         <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+  </div>      <!-- endbuild -->
 </body>
 </html>

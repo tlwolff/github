@@ -1,11 +1,11 @@
 .social-media {
-  margin: 0;
-  padding: 0;
+  float: right;
   clear: both;
+  margin-top: -150px;
 
 li {
+  display: inline-block;
   list-style-type: none;
-  float: right;
   margin: 2px;
   font-size: 1.7em;
   background: 20px;
